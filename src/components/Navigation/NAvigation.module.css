@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.navLink.active {
+  color: #343bb9;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+@media (max-width: 800px) {
+  .navigation {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
